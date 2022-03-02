@@ -1,0 +1,1963 @@
+{
+    "manifest_version": "1.0.14",
+    "title": "Elipso",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/elipso.site",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Hero Slider",
+            "screenshot": "screenshots\/block-hero-slider.png",
+            "source": "templates\/block-hero-slider.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/block-hero-slider\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Hero Image - Right",
+            "screenshot": "screenshots\/block-hero-image-right.png",
+            "source": "templates\/block-hero-image-right.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/block-hero-image-right\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block: Hero Image - Left",
+            "screenshot": "screenshots\/block-hero-image-left.png",
+            "source": "templates\/block-hero-image-left.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/block-hero-image-left\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Search",
+            "screenshot": "screenshots\/search.jpg",
+            "source": "templates\/search.json",
+            "preview_url": "https:\/\/elipso.site\/?elementor_library=search",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-search",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/search"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Search Results."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Map",
+            "screenshot": "screenshots\/block-map.png",
+            "source": "templates\/block-map.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockmap\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-map",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Hero-Image",
+            "screenshot": "screenshots\/block-hero-image.jpg",
+            "source": "templates\/block-hero-image.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockhero-image\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-hero",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Community",
+            "screenshot": "screenshots\/block-community.png",
+            "source": "templates\/block-community.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockcommunity\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Header",
+            "screenshot": "screenshots\/block-header.png",
+            "source": "templates\/block-header.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockheader\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Features",
+            "screenshot": "screenshots\/block-features.png",
+            "source": "templates\/block-features.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockfeatures\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-features",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Skills",
+            "screenshot": "screenshots\/block-skills.png",
+            "source": "templates\/block-skills.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockskills\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Video",
+            "screenshot": "screenshots\/block-video.png",
+            "source": "templates\/block-video.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockvideo\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Pricing",
+            "screenshot": "screenshots\/block-pricing.png",
+            "source": "templates\/block-pricing.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockpricing\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-pricing",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Support",
+            "screenshot": "screenshots\/block-support.png",
+            "source": "templates\/block-support.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blocksupport\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Services",
+            "screenshot": "screenshots\/block-services.png",
+            "source": "templates\/block-services.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockservices\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-services",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Call to Action",
+            "screenshot": "screenshots\/block-call-to-action.png",
+            "source": "templates\/block-call-to-action.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockcall-to-action\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-cta",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Tools",
+            "screenshot": "screenshots\/block-tools.png",
+            "source": "templates\/block-tools.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blocktools\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Portfolio",
+            "screenshot": "screenshots\/block-portfolio.jpg",
+            "source": "templates\/block-portfolio.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockportfolio\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-portfolio",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Project",
+            "screenshot": "screenshots\/block-project.png",
+            "source": "templates\/block-project.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockproject\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Counter",
+            "screenshot": "screenshots\/block-counter.png",
+            "source": "templates\/block-counter.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blockcounter\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Block:Testimonial",
+            "screenshot": "screenshots\/block-testimonial.png",
+            "source": "templates\/block-testimonial.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/blocktestimonial\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-testimonial",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contacts",
+            "screenshot": "screenshots\/contacts.png",
+            "source": "templates\/contacts.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/contacts\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team member",
+            "screenshot": "screenshots\/team-member.png",
+            "source": "templates\/team-member.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/team-details\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Portfolio",
+            "screenshot": "screenshots\/portfolio.jpg",
+            "source": "templates\/portfolio.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/prices\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Service Layout",
+            "screenshot": "screenshots\/service-layout.png",
+            "source": "templates\/service-layout.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/service-layout\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/elipso.site\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blog list",
+            "screenshot": "screenshots\/blog-list.jpg",
+            "source": "templates\/blog-list.json",
+            "preview_url": "https:\/\/elipso.site\/?elementor_library=blog-list",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/post_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Posts Archive."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Single post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/elipso.site\/?elementor_library=single-post",
+            "type": "single",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blog grid",
+            "screenshot": "screenshots\/blog-grid.jpg",
+            "source": "templates\/blog-grid.json",
+            "preview_url": "https:\/\/elipso.site\/?elementor_library=blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/post_archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Posts Archive."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.png",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/elipso.site\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.png",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/elipso.site\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "2.9.8",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "2.9.4",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "group-of-architects-and-business-people-working-ZLA57WU-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/group-of-architects-and-business-people-working-ZLA57WU-600x321.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-hero-slider.json",
+                    "name": "Block: Hero Slider"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 134660,
+            "dimensions": [
+                2560,
+                1368
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/group-of-architects-and-business-people-working-to-ZLA57WU"
+        },
+        {
+            "filename": "young-designers-talking-on-break-about-business-PGZWAT7-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/young-designers-talking-on-break-about-business-PGZWAT7-600x273.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-hero-slider.json",
+                    "name": "Block: Hero Slider"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 178831,
+            "dimensions": [
+                2560,
+                1163
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/young-designers-talking-on-break-about-business-pl-PGZWAT7"
+        },
+        {
+            "filename": "corporate-business-team-and-manager-in-a-meeting-GH2CALR-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/corporate-business-team-and-manager-in-a-meeting-GH2CALR-600x230.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-hero-slider.json",
+                    "name": "Block: Hero Slider"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 169951,
+            "dimensions": [
+                2560,
+                982
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/corporate-business-team-and-manager-in-a-meeting-GH2CALR"
+        },
+        {
+            "filename": "business-people-conference-in-modern-meeting-room-Y8LSMTC-2-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-people-conference-in-modern-meeting-room-Y8LSMTC-2-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-hero-image-right.json",
+                    "name": "Block: Hero Image - Right"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 141869,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/business-people-conference-in-modern-meeting-room-Y8LSMTC"
+        },
+        {
+            "filename": "startup-business-team-on-meeting-in-modern-bright-JDGCN69-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/startup-business-team-on-meeting-in-modern-bright-JDGCN69-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-hero-image-left.json",
+                    "name": "Block: Hero Image - Left"
+                },
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 189726,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/startup-business-team-on-meeting-in-modern-bright--JDGCN69"
+        },
+        {
+            "filename": "portrait-of-businesspeople-standing-with-arms-7LWEQFP-2.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/portrait-of-businesspeople-standing-with-arms-7LWEQFP-2-600x206.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-hero-image.json",
+                    "name": "Block:Hero-Image"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 212396,
+            "dimensions": [
+                2560,
+                880
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7LWEQFP"
+        },
+        {
+            "filename": "portrait-of-businesspeople-standing-with-arms-7LWEQFP-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/portrait-of-businesspeople-standing-with-arms-7LWEQFP-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-community.json",
+                    "name": "Block:Community"
+                },
+                {
+                    "source": "templates\/team-member.json",
+                    "name": "Team member"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 143628,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7LWEQFP"
+        },
+        {
+            "filename": "case.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/case.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-features.json",
+                    "name": "Block:Features"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1214,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-business-and-finance-icons-DV9GJT"
+        },
+        {
+            "filename": "coins.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/coins.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-features.json",
+                    "name": "Block:Features"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1054,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-business-and-finance-icons-DV9GJT"
+        },
+        {
+            "filename": "pie_chart.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/pie_chart.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-features.json",
+                    "name": "Block:Features"
+                },
+                {
+                    "source": "templates\/block-services.json",
+                    "name": "Block:Services"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 856,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-business-and-finance-icons-DV9GJT"
+        },
+        {
+            "filename": "handsome-businessman-ceo-working-in-office-VS3T25R.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/handsome-businessman-ceo-working-in-office-VS3T25R-600x141.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-video.json",
+                    "name": "Block:Video"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 104886,
+            "dimensions": [
+                2560,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VS3T25R"
+        },
+        {
+            "filename": "folder.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/folder.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-support.json",
+                    "name": "Block:Support"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1357,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-office-life-icons-3U4QJE"
+        },
+        {
+            "filename": "support_2.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/support_2.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-support.json",
+                    "name": "Block:Support"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 2644,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-office-life-icons-3U4QJE"
+        },
+        {
+            "filename": "money_bag.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/money_bag.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-services.json",
+                    "name": "Block:Services"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1185,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-business-and-finance-icons-DV9GJT"
+        },
+        {
+            "filename": "presentation_graph.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/presentation_graph.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-services.json",
+                    "name": "Block:Services"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1213,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-business-and-finance-icons-DV9GJT"
+        },
+        {
+            "filename": "collecting.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/collecting.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-services.json",
+                    "name": "Block:Services"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1246,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-business-and-finance-icons-DV9GJT"
+        },
+        {
+            "filename": "Background-call-to-action.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/Background-call-to-action-600x47.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-call-to-action.json",
+                    "name": "Block:Call to Action"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 3609,
+            "dimensions": [
+                2560,
+                200
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/Background-call-to-action-600x47.jpg"
+        },
+        {
+            "filename": "calendar.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/calendar.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-tools.json",
+                    "name": "Block:Tools"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 3407,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-office-life-icons-3U4QJE"
+        },
+        {
+            "filename": "cloud_lock.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/cloud_lock.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-tools.json",
+                    "name": "Block:Tools"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1766,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-network-icons-J8U9PM"
+        },
+        {
+            "filename": "idea.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/idea.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-tools.json",
+                    "name": "Block:Tools"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 3156,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-seo-icons-4LP8MG"
+        },
+        {
+            "filename": "group.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/group.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-tools.json",
+                    "name": "Block:Tools"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 3782,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-network-icons-J8U9PM"
+        },
+        {
+            "filename": "photos.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/photos.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-tools.json",
+                    "name": "Block:Tools"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 2425,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-photo-and-video-icons-YPZLYY"
+        },
+        {
+            "filename": "star.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/star.svg",
+            "templates": [
+                {
+                    "source": "templates\/block-tools.json",
+                    "name": "Block:Tools"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1658,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-weather-icons-WLHDK3"
+        },
+        {
+            "filename": "portait-of-software-designer-working-in-office-DETXH2K-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/portait-of-software-designer-working-in-office-DETXH2K-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 157864,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/portait-of-software-designer-working-in-office-DETXH2K"
+        },
+        {
+            "filename": "business-people-conference-and-meeting-in-modern-Q5H9MPW-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-people-conference-and-meeting-in-modern-Q5H9MPW-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 158762,
+            "dimensions": [
+                2560,
+                1707
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/business-people-conference-and-meeting-in-modern-o-Q5H9MPW"
+        },
+        {
+            "filename": "happy-success-business-team-celebrating-victory-DXBC8E3-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/happy-success-business-team-celebrating-victory-DXBC8E3-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 228991,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/happy-success-business-team-celebrating-victory-in-DXBC8E3"
+        },
+        {
+            "filename": "picture-of-young-architects-discussing-in-office-UGKJXLQ-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/picture-of-young-architects-discussing-in-office-UGKJXLQ-600x387.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 235743,
+            "dimensions": [
+                2231,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/picture-of-young-architects-discussing-in-office-UGKJXLQ"
+        },
+        {
+            "filename": "business-colleagues-in-conference-meeting-room-V35WZKH-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-colleagues-in-conference-meeting-room-V35WZKH-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/service-layout.json",
+                    "name": "Service Layout"
+                }
+            ],
+            "filesize": 206219,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/business-colleagues-in-conference-meeting-room-pre-V35WZKH"
+        },
+        {
+            "filename": "business-people-conference-and-meeting-in-modern-WEY3GP2-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-people-conference-and-meeting-in-modern-WEY3GP2-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 171752,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/business-people-conference-and-meeting-in-modern-WEY3GP2"
+        },
+        {
+            "filename": "business-people-conference-in-modern-meeting-room-Y4WSGNV-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-people-conference-in-modern-meeting-room-Y4WSGNV-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 171200,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/business-people-conference-in-modern-meeting-room-Y4WSGNV"
+        },
+        {
+            "filename": "business-people-conference-in-modern-meeting-room-Y8LSMTC-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-people-conference-in-modern-meeting-room-Y8LSMTC-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 141869,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/business-people-conference-in-modern-meeting-room-Y8LSMTC"
+        },
+        {
+            "filename": "happy-mature-businessman-and-businesswoman-SZH24AD-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/happy-mature-businessman-and-businesswoman-SZH24AD-600x358.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 193265,
+            "dimensions": [
+                2414,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/happy-mature-businessman-and-businesswoman-SZH24AD"
+        },
+        {
+            "filename": "meeting-business-corporate-success-brainstorming-L692SWJ-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/meeting-business-corporate-success-brainstorming-L692SWJ-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 192766,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/meeting-business-corporate-success-brainstorming-t-L692SWJ"
+        },
+        {
+            "filename": "portrait-of-young-male-architect-on-meeting-PAHNTXG-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/portrait-of-young-male-architect-on-meeting-PAHNTXG-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 150288,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/portrait-of-young-male-architect-on-meeting-PAHNTXG"
+        },
+        {
+            "filename": "attractive-businesswoman-using-digital-tablet-in-SWN5KBX-1-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/attractive-businesswoman-using-digital-tablet-in-SWN5KBX-1-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 157331,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/attractive-businesswoman-using-digital-tablet-in-o-SWN5KBX"
+        },
+        {
+            "filename": "business-colleagues-at-their-workplace-in-office-R9HYAS8-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-colleagues-at-their-workplace-in-office-R9HYAS8-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 154338,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/business-colleagues-at-their-workplace-in-office-R9HYAS8"
+        },
+        {
+            "filename": "business-colleagues-in-conference-room-during-P8CFAJZ-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-colleagues-in-conference-room-during-P8CFAJZ-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 119472,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/business-colleagues-in-conference-room-during-meet-P8CFAJZ"
+        },
+        {
+            "filename": "corporate-business-team-and-manager-in-a-meeting-ZE8RJMA-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/corporate-business-team-and-manager-in-a-meeting-ZE8RJMA-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 97173,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/corporate-business-team-and-manager-in-a-meeting-ZE8RJMA"
+        },
+        {
+            "filename": "group-of-architects-working-on-project-PQWE4JL-1-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/group-of-architects-working-on-project-PQWE4JL-1-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 165778,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/group-of-architects-working-on-project-PQWE4JL"
+        },
+        {
+            "filename": "programmer-working-in-a-software-developing-UPFWE2V-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/programmer-working-in-a-software-developing-UPFWE2V-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-portfolio.json",
+                    "name": "Block:Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 135970,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/programmer-working-in-a-software-developing-UPFWE2V"
+        },
+        {
+            "filename": "group-of-architects-working-on-project-PQWE4JL-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/group-of-architects-working-on-project-PQWE4JL-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-project.json",
+                    "name": "Block:Project"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 165778,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/group-of-architects-working-on-project-PQWE4JL"
+        },
+        {
+            "filename": "Services-background.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/Services-background-600x141.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-testimonial.json",
+                    "name": "Block:Testimonial"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 9896,
+            "dimensions": [
+                2560,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/Services-background-600x141.jpg"
+        },
+        {
+            "filename": "portrait-of-handsome-man-with-beard-PBC8SPF.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/portrait-of-handsome-man-with-beard-PBC8SPF.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-testimonial.json",
+                    "name": "Block:Testimonial"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 27906,
+            "dimensions": [
+                350,
+                350
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PBC8SPF"
+        },
+        {
+            "filename": "portrait-of-a-serious-confident-business-woman-PPFK3LH.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/portrait-of-a-serious-confident-business-woman-PPFK3LH.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-testimonial.json",
+                    "name": "Block:Testimonial"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 26387,
+            "dimensions": [
+                350,
+                350
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PPFK3LH"
+        },
+        {
+            "filename": "outdoor-portrait-of-handsome-man-in-gray-coat-P4V8NF6.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/outdoor-portrait-of-handsome-man-in-gray-coat-P4V8NF6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/block-testimonial.json",
+                    "name": "Block:Testimonial"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 27036,
+            "dimensions": [
+                350,
+                350
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P4V8NF6"
+        },
+        {
+            "filename": "bg-image-team.png",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/bg-image-team.png",
+            "templates": [
+                {
+                    "source": "templates\/team-member.json",
+                    "name": "Team member"
+                }
+            ],
+            "filesize": 59955,
+            "dimensions": [
+                569,
+                576
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/bg-image-team.png"
+        },
+        {
+            "filename": "shot-of-thinking-financial-advisor-businessman-6E27W5Q-1-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/shot-of-thinking-financial-advisor-businessman-6E27W5Q-1-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team-member.json",
+                    "name": "Team member"
+                }
+            ],
+            "filesize": 124662,
+            "dimensions": [
+                1440,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/shot-of-thinking-financial-advisor-businessman-wor-6E27W5Q"
+        },
+        {
+            "filename": "picture-of-business-people-discussing-in-their-PSJ9R8K-3.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/picture-of-business-people-discussing-in-their-PSJ9R8K-3-600x206.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 360081,
+            "dimensions": [
+                2560,
+                880
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PSJ9R8K"
+        },
+        {
+            "filename": "entrepreneurs-and-business-people-conference-in-3FQHRA5.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/entrepreneurs-and-business-people-conference-in-3FQHRA5-600x424.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 69776,
+            "dimensions": [
+                1020,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-3FQHRA5"
+        },
+        {
+            "filename": "business-colleagues-at-their-workplace-in-office-R9HYAS8-1.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-colleagues-at-their-workplace-in-office-R9HYAS8-1-600x424.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 85305,
+            "dimensions": [
+                1020,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-R9HYAS8"
+        },
+        {
+            "filename": "business-colleagues-in-conference-room-during-P8CFAJZ-1.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-colleagues-in-conference-room-during-P8CFAJZ-1-600x424.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 64666,
+            "dimensions": [
+                1020,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P8CFAJZ"
+        },
+        {
+            "filename": "group-of-architects-and-designers-working-and-ENPTLF5.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/group-of-architects-and-designers-working-and-ENPTLF5-600x424.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 65492,
+            "dimensions": [
+                1020,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ENPTLF5"
+        },
+        {
+            "filename": "portrait-of-young-male-architect-on-meeting-PAHNTXG-1.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/portrait-of-young-male-architect-on-meeting-PAHNTXG-1-600x424.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 83245,
+            "dimensions": [
+                1020,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PAHNTXG"
+        },
+        {
+            "filename": "portait-of-software-designer-working-in-office-LCTGDVJ.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/portait-of-software-designer-working-in-office-LCTGDVJ-600x424.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 85276,
+            "dimensions": [
+                1020,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LCTGDVJ"
+        },
+        {
+            "filename": "young-employee-working-on-computer-during-working-3MGHWTU.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/young-employee-working-on-computer-during-working-3MGHWTU-600x424.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 61248,
+            "dimensions": [
+                1020,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/young-employee-working-on-computer-during-working--3MGHWTU"
+        },
+        {
+            "filename": "group-of-architects-and-business-people-working-ZLA57WU-1.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/group-of-architects-and-business-people-working-ZLA57WU-1-600x424.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 77005,
+            "dimensions": [
+                1020,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/group-of-architects-and-business-people-working-to-ZLA57WU"
+        },
+        {
+            "filename": "shot-of-thinking-financial-advisor-businessman-6E27W5Q.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/shot-of-thinking-financial-advisor-businessman-6E27W5Q-600x424.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 80862,
+            "dimensions": [
+                1020,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-6E27W5Q"
+        },
+        {
+            "filename": "tablet_pen.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/tablet_pen.svg",
+            "templates": [
+                {
+                    "source": "templates\/service-layout.json",
+                    "name": "Service Layout"
+                }
+            ],
+            "filesize": 1106,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-computer-icons-EYKY6M"
+        },
+        {
+            "filename": "presentation_video.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/presentation_video.svg",
+            "templates": [
+                {
+                    "source": "templates\/service-layout.json",
+                    "name": "Service Layout"
+                }
+            ],
+            "filesize": 989,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-business-and-finance-icons-DV9GJT"
+        },
+        {
+            "filename": "group-1.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/group-1.svg",
+            "templates": [
+                {
+                    "source": "templates\/service-layout.json",
+                    "name": "Service Layout"
+                }
+            ],
+            "filesize": 2013,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-business-and-finance-icons-DV9GJT"
+        },
+        {
+            "filename": "attractive-businesswoman-using-digital-tablet-in-SWN5KBX-scaled.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/attractive-businesswoman-using-digital-tablet-in-SWN5KBX-600x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 157331,
+            "dimensions": [
+                2160,
+                1440
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/attractive-businesswoman-using-digital-tablet-in-o-SWN5KBX"
+        },
+        {
+            "filename": "beautiful-female-architect-working-on-plan-SGVWT4U.jpg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/beautiful-female-architect-working-on-plan-SGVWT4U-600x141.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 144233,
+            "dimensions": [
+                2560,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SGVWT4U"
+        },
+        {
+            "filename": "letter.svg",
+            "thumbnail_url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/letter.svg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 1863,
+            "dimensions": [
+                0,
+                0
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/ru\/20-communication-icons-27A2KK"
+        }
+    ]
+}

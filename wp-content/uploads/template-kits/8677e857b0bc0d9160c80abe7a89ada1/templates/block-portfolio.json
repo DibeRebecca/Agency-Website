@@ -1,0 +1,368 @@
+{
+    "version": "0.4",
+    "title": "Block:Portfolio",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-portfolio",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "6a1f716d",
+            "settings": {
+                "margin": {
+                    "unit": "px",
+                    "top": "120",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "margin_tablet": {
+                    "unit": "px",
+                    "top": "80",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "margin_mobile": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": 0,
+                    "bottom": "0",
+                    "left": 0,
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "60",
+                    "bottom": "0",
+                    "left": "60",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "30",
+                    "bottom": "0",
+                    "left": "30",
+                    "isLinked": false
+                },
+                "_title": "Portfolio"
+            },
+            "elements": [
+                {
+                    "id": "4348b5c2",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null,
+                        "space_between_widgets": 0,
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "margin_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "10863224",
+                            "settings": {
+                                "gallery_type": "multiple",
+                                "galleries": [
+                                    {
+                                        "gallery_title": "Business",
+                                        "_id": "c1916d9",
+                                        "multiple_gallery": [
+                                            {
+                                                "id": 1235,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/portait-of-software-designer-working-in-office-DETXH2K-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1237,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-people-conference-and-meeting-in-modern-Q5H9MPW-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1361,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/happy-success-business-team-celebrating-victory-DXBC8E3-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1344,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/picture-of-young-architects-discussing-in-office-UGKJXLQ-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1302,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-colleagues-in-conference-meeting-room-V35WZKH-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1230,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/startup-business-team-on-meeting-in-modern-bright-JDGCN69-scaled.jpg"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "gallery_title": "Marketing",
+                                        "multiple_gallery": [
+                                            {
+                                                "id": 1427,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-people-conference-and-meeting-in-modern-WEY3GP2-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1428,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-people-conference-in-modern-meeting-room-Y4WSGNV-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1429,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-people-conference-in-modern-meeting-room-Y8LSMTC-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1430,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/happy-mature-businessman-and-businesswoman-SZH24AD-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1431,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/meeting-business-corporate-success-brainstorming-L692SWJ-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1432,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/portrait-of-young-male-architect-on-meeting-PAHNTXG-scaled.jpg"
+                                            }
+                                        ],
+                                        "_id": "ce84f63"
+                                    },
+                                    {
+                                        "gallery_title": "Finance",
+                                        "multiple_gallery": [
+                                            {
+                                                "id": 1433,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/attractive-businesswoman-using-digital-tablet-in-SWN5KBX-1-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1434,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-colleagues-at-their-workplace-in-office-R9HYAS8-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1435,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/business-colleagues-in-conference-room-during-P8CFAJZ-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1436,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/corporate-business-team-and-manager-in-a-meeting-ZE8RJMA-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1437,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/group-of-architects-working-on-project-PQWE4JL-1-scaled.jpg"
+                                            },
+                                            {
+                                                "id": 1438,
+                                                "url": "https:\/\/elipso.site\/wp-content\/uploads\/2020\/05\/programmer-working-in-a-software-developing-UPFWE2V-scaled.jpg"
+                                            }
+                                        ],
+                                        "_id": "1b28a6d"
+                                    }
+                                ],
+                                "columns": 3,
+                                "ideal_row_height": {
+                                    "unit": "px",
+                                    "size": 440,
+                                    "sizes": []
+                                },
+                                "gap": {
+                                    "unit": "px",
+                                    "size": 30,
+                                    "sizes": []
+                                },
+                                "gap_tablet": {
+                                    "unit": "px",
+                                    "size": 30,
+                                    "sizes": []
+                                },
+                                "gap_mobile": {
+                                    "unit": "px",
+                                    "size": 30,
+                                    "sizes": []
+                                },
+                                "aspect_ratio": "4:3",
+                                "thumbnail_image_size": "large",
+                                "show_all_galleries_label": "All",
+                                "pointer": "overline",
+                                "animation_framed": "grow",
+                                "overlay_title": "title",
+                                "overlay_description": "description",
+                                "image_border_width": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "image_border_radius": {
+                                    "unit": "px",
+                                    "size": 10,
+                                    "sizes": []
+                                },
+                                "image_hover_animation": "shrink-contained",
+                                "overlay_background_hover_background": "gradient",
+                                "overlay_background_hover_color": "#6852ED",
+                                "overlay_background_hover_color_b": "#BA43FC",
+                                "overlay_background_hover_gradient_type": "radial",
+                                "overlay_background_hover_gradient_angle": {
+                                    "unit": "deg",
+                                    "size": 45,
+                                    "sizes": []
+                                },
+                                "overlay_background_hover_gradient_position": "bottom left",
+                                "background_overlay_hover_animation": "fade-in",
+                                "content_alignment": "left",
+                                "content_vertical_position": "bottom",
+                                "content_padding": {
+                                    "unit": "px",
+                                    "size": 30,
+                                    "sizes": []
+                                },
+                                "title_color": "#FFFFFF",
+                                "title_typography_typography": "custom",
+                                "title_typography_font_family": "Poppins",
+                                "title_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 22,
+                                    "sizes": []
+                                },
+                                "title_typography_font_weight": "400",
+                                "title_typography_line_height": {
+                                    "unit": "px",
+                                    "size": 33,
+                                    "sizes": []
+                                },
+                                "title_spacing": {
+                                    "unit": "px",
+                                    "size": 8,
+                                    "sizes": []
+                                },
+                                "description_color": "rgba(255, 255, 255, 0.88)",
+                                "description_typography_typography": "custom",
+                                "description_typography_font_family": "Nunito",
+                                "description_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "description_typography_font_weight": "200",
+                                "description_typography_line_height": {
+                                    "unit": "px",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "align_filter_bar_items": "center",
+                                "galleries_title_color_normal": "#554D89",
+                                "galleries_titles_typography_typography": "custom",
+                                "galleries_titles_typography_font_family": "Poppins",
+                                "galleries_titles_typography_font_size": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "galleries_titles_typography_font_weight": "400",
+                                "galleries_titles_typography_letter_spacing": {
+                                    "unit": "px",
+                                    "size": 0.5,
+                                    "sizes": []
+                                },
+                                "galleries_title_color_hover": "#EF7171",
+                                "galleries_title_color_active": "#EF7171",
+                                "galleries_pointer_color_active": "#6852ED",
+                                "galleries_titles_space_between": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                },
+                                "galleries_titles_gap": {
+                                    "unit": "px",
+                                    "size": 30,
+                                    "sizes": []
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "_padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "_title": "Gallery"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "gallery",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}
